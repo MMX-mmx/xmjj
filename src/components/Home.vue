@@ -21,6 +21,9 @@
                 </div>
             </li>
         </ul>
+        <div class="top" id="one">
+            <a href="#top">↑</a>  
+        </div>
     </div>
 </template>
 
@@ -73,7 +76,26 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+.top{
+    
+    width: 27px;
+    height: 40px;
+    border: 5px solid red;
+    border-radius:24px; 
+    align-items: center;
+    padding-left:13px;
+    font-size: 30px;
+    color: black;
+    background: white;
+}
+#one{
+    position: fixed;
+    bottom: 10px;
+    left: 350px;
+}
+.hello{
+    overflow: scroll;
+}
 .sort{
     background: skyblue;
     padding-bottom:10px; 
